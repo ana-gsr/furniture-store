@@ -5,7 +5,6 @@ const Home = () => {
     <>
         <Header />
         <main>
-            <h2>Bienvenida</h2>
         </main>
     </>    
   )
