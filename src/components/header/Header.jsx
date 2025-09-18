@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <>
-      <header className='header'><h1 className='header-title'>Furniture</h1></header>
-      <nav className='nav'>
-        <ul className='nav-list'>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/products">Products</Link></li>
-        <li><Link to="/gallery">Gallery</Link></li>
+    <header className="flex items-center justify-between px-6 py-4 bg-white shadow w-full">
+      <h1 className="text-2xl font-bold text-blue-600">Furniture</h1>
+      <nav>
+        <ul className="flex gap-6 text-gray-700 font-medium">
+          <li><Link to="/" className="hover:text-blue-600">Home</Link></li>
+          <li><Link to="/services" className="hover:text-blue-600">Services</Link></li>
+          <li><Link to="/products" className="hover:text-blue-600">Products</Link></li>
+          <li><Link to="/gallery" className="hover:text-blue-600">Gallery</Link></li>
         </ul>
       </nav>
-    </>
-  );
-};
+    </header>
+  )
+}
 
-export default Header;
+export default Header
