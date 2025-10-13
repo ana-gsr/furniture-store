@@ -1,3 +1,4 @@
+import Carusel from "../components/carusel/carusel"
 import Discover from "../components/discover/discover"
 import Header from "../components/header/Header"
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
         <Header />
         <Discover />
+        <Carusel />
     </>    
   )
 }
