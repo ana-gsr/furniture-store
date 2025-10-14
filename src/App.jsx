@@ -4,7 +4,6 @@ import Services from './pages/Services'
 import Products from './pages/Products'
 import Gallery from './pages/Gallery'
 import SillaDiscover from './components/discover/discover'
-import carusel from './components/carusel/carusel'
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/discover" element={<SillaDiscover />} />
-        <Route path="/carusel" element={<carusel />} /> 
       </Routes>
     </>
   );
