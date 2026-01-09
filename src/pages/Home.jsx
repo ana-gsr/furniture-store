@@ -1,4 +1,4 @@
-import Browse from "../components/browse/Browse"
+import Browse from "../components/browse/browse"
 import Carusel from "../components/carusel/carusel"
 import Discover from "../components/discover/discover"
 import Header from "../components/header/Header"
