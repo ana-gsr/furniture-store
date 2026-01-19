@@ -4,6 +4,8 @@ import Discover from "../components/discover/discover"
 import Header from "../components/header/Header"
 import Learn from "../components/learn/learn"
 import Works from "../components/works/works"
+import Suscribe from "../components/suscribe/suscribe"
+import Footer from "../components/footer/footer"
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         <Learn /> 
         <Browse /> 
         <Works />
+        <Suscribe />    
+        <Footer />
     </>    
   )
 }
