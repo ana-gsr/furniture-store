@@ -16,7 +16,7 @@ function SillaDiscover() {
 
       {/* Bloque de texto sobre la imagen */}
       <div className="absolute 
-                top-[4%] left-[35%]
+                top-[4%] left-[65%]
                 sm:top-[5%] sm:left-[70%] 
                 md:top-[10%] md:left-[75%] 
                 bg-[#DFE9F4] 
